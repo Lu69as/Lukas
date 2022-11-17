@@ -22,9 +22,10 @@ body, html {
   .img1 { background-image: url("../Img/20221102_095706.jpg"); }
   .img2 { background-image: url("../Img/20221102_095907.jpg"); }
   .img3 { background-image: url("../Img/20221102_100029.jpg"); }
-  .img4 { background-image: url("img_nature.jpg"); }
-  .img5 { background-image: url("img_forest.jpg"); }
-  .img6 { background-image: url("img_woods.jpg"); }
+  .img4 { background-image: url("../Img/20221102_125236.jpg"); }
+  .img5 { background-image: url("../Img/20221102_125244.jpg"); }
+  .img6 { background-image: url("../Img/20221102_123206.jpg"); }
+  .img7 { background-image: url("../Img/20221102_123637.jpg");}
   
   /* Position text in the middle of the page/image */
   .bg-text {

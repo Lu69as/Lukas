@@ -19,7 +19,7 @@ a:visited {
 }  
 .navbar {
 background-color: var(blue);
-position: fixed;
+position: absolute;
 top: 0px;
 left: 0px;
 width: 100%;
@@ -61,4 +61,49 @@ tr:nth-child(even) {background-color: grey;}
 
 .mydiv {
   float: right;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("../Undersites/Bilder/Img/20221102_095706.jpg"); }
+.img2 { background-image: url("../Undersites/Bilder/Img/20221102_095907.jpg"); }
+.img3 { background-image: url("../Undersites/Bilder/Img/20221102_100029.jpg"); }
+.img4 { background-image: url("img_nature.jpg"); }
+.img5 { background-image: url("img_forest.jpg"); }
+.img6 { background-image: url("img_woods.jpg"); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
 }
